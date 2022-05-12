@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--____________________Fonts_____________________________ -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+  <!--____________________Style_____________________________ -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- ____________________SEO_____________________________ -->
+  <meta name="description" content="Hola bienvenid@ a Avianca Airlines">
+  <link rel="canonical" href="https://Franco-Carrera.github.io/proyecto-maquetado/
+     portafolio-cv">
+  <link rel="shortcut icon" href="./assets/startprogram.svg" type="image/x-icon">
+  <meta name="theme-color" content="#96172e">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title" content="Prueba Torre - carrerafranco">
+  <meta property="og-description" name="twitter:description" content="Hola bienvenid@ a Avianca Airlines, soy Carrera Franco, Desarrollador 
+       Web">
+</head>
+
+<body>
+
+  <header class="header">
+    <section class="container">
+      <div class="logo">
+        <a href="index.html" class="text__second__color">
+          <img loading="lazy" src="./assets/LogoHeader.svg" alt="LogoHeader">
+        </a>
+      </div>
+      <button type="button" class="menu-btn pointer">
+        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z" fill="white" />
+        </svg>
+      </button>
+      <nav class="menu">
+        <a href="#home">El programa</a>
+        <a href="#inscripción">Inscripción</a>
+      </nav>
+    </section>
+  </header>
+
+
+  <section id="home" class="hero">
+    <article class="hero__image" style="--hero--image: url('../assets/hero-image-home.jpg')">
+      <aside class="hero__image-opacity">
+        <div class="hero__image-content text__second__color">
+          <h2 class="hero__image-title">Volamos para que
+            tú puedas volar.</h2>
+          <h3 class="hero__image-subtitle">Avianca Corporate organiza todo lo
+            que necesitas para tu viaje.
+          </h3>
+          <a href="#contacto" class="btn none">Participa en la rifa</a>
+        </div>
+      </aside>
+    </article>
+  </section>
+
+
+  <section id="services" class="services section container-two">
+    <form class="services__form__container">
+
+      <section class="services__fieldset">
+
+        <h5 class="services__title">Busca tu vuelo</h5>
+
+        <div class="row">
+          <div class="form__group">
+            <input class="form__input pointer" type="radio" name="options" id="slide-1" value="roundtrip" checked>
+            <label for="radio-1">Ida y Regreso</label>
+          </div>
+
+          <div class="form__group">
+            <input class="form__input pointer" type="radio" name="options" id="slide-2" value="oneway">
+            <label for="radio-2">Solo ida</label>
+          </div>
+
+          <div class="form__group">
+            <input class="form__input pointer" type="radio" name="options" id="slide-3" value="allCitys">
+            <label for="radio-3 none">Varias ciudades</label>
+          </div>
+        </div>
+
+
+        <main class="form__group__two">
+          <section class="form__first__row--desktop">
+
+            <div class="group__two">
+              <label for="col-origin">Desde</label>
+              <input class="form__input__two" type="text" name="origin" placeholder="Bogotá D.C. (BOG">
+            </div>
+
+
+            <figcaption class="containArrows">
+              <picture class="form__picture__one">
+                <img loading="lazy" src="./assets/fondosearch.svg" alt="">
+                <svg class="arrowLeft" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.6 11.5L6.728 10.3921L3.064 6.78571L16 6.78571L16 5.21429L3.064 5.21429L6.736 1.60786L5.6 0.5L-1.42652e-06 6L5.6 11.5Z"
+                    fill="#96172E" />
+                </svg>
+                <svg class="arrowRight" width="16" height="12" viewBox="0 0 16 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M10.4 0.5L9.272 1.60786L12.936 5.21429H0V6.78571H12.936L9.264 10.3921L10.4 11.5L16 6L10.4 0.5Z"
+                    fill="#96172E" />
+                </svg>
+              </picture>
+            </figcaption>
+
+
+            <div class="group__two second__child">
+              <label for="col-destiny">Destino</label>
+              <input class="form__input__two" type="text" name="destiny" placeholder="Dallas (DFW)">
+            </div>
+
+            <aside class="group__two sizes">
+              <label for="col-stay">Pasajeros y Clase</label>
+              <input class="form__input__two" type="text" name="stay" placeholder="1 adulto, económica">
+              <svg class="arrowDown" width="12" height="8" viewBox="0 0 12 8" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.59 0.294922L6 4.87492L1.41 0.294922L0 1.70492L6 7.70492L12 1.70492L10.59 0.294922Z"
+                  fill="#2E2E2E" />
+              </svg>
+            </aside>
+          </section>
+
+          <section class="form__two__row--desktop">
+            <aside class="group__two sizes">
+              <label for="col-exit-date">Fecha de Salida</label>
+              <input class="form__input__two" type="text" name="way" placeholder="16 / 03 / 21">
+            </aside>
+
+            <aside class="group__two sizes">
+              <label for="col-return-date">Fecha de regreso</label>
+              <input class="form__input__two" type="text" name="back" placeholder="14 / 04 / 21">
+            </aside>
+
+            <aside class="containCircle sizes">
+              <picture class="form__picture__two">
+                <img loading="lazy" src="./assets/circlesuma.svg" alt="">
+              </picture>
+              <article class="aside__form__code">
+                <svg class="suma" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.21721 0V4.89552H12V7.0806H7.21721V12H4.7582V7.0806H0V4.89552H4.7582V0H7.21721Z"
+                    fill="white" />
+                </svg>
+                <a href="#codepromotion" class="enlace__code">Tengo un código promocional</a>
+              </article>
+            </aside>
+
+            <aside class="sizes__last">
+              <a href="#search" class="btn">Busca tu vuelo</a>
+            </aside>
+          </section>
+        </main>
+      </section>
+    </form>
+  </section>
+
+
+
+
+
+
+  <section id="about" class="about">
+    <main class="container-two">
+      <header class="about__titles">
+        <h1 class="section__title text-center">Recomendaciones para ti</h1>
+        <a class="enlace__configure text__link text-center" href="#configuration">
+          <p class="configure__p">
+            Configura tus recomendaciones
+          </p>
+          <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 10.59L5.08 6L0.5 1.41L1.91 0L7.91 6L1.91 12L0.5 10.59Z" fill="#96172E" />
+          </svg>
+        </a>
+      </header>
+
+      <article class="about__card border-radius">
+        <img loading="lazy" src="./assets/CardOne.jpg" alt="cardPictureOne">
+        <main class="about__card__info">
+          <aside class="card__top">
+            <h3 class="about__title">
+              Bogota
+            </h3>
+            <svg class="arrowRightInfo" width="17" height="12" viewBox="0 0 17 12" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.9 0.5L9.772 1.60786L13.436 5.21429H0.5V6.78571H13.436L9.764 10.3921L10.9 11.5L16.5 6L10.9 0.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <h3 class="about__title">Nueva York</h3>
+            <small>BOG</small>
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.1 11.5L7.228 10.3921L3.564 6.78571L16.5 6.78571L16.5 5.21429L3.564 5.21429L7.236 1.60786L6.1 0.5L0.499999 6L6.1 11.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <small>JKF</small>
+          </aside>
+          <aside class="card__middle">
+            <p class="card__parrafo__stay">desde:</p>
+            <h3 class="inline__block">$879, 890 <small>COP</small></h3>
+            <div>
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5 11.2V9.6L9.7 5.6V1.2C9.7 0.536 9.164 0 8.5 0C7.836 0 7.3 0.536 7.3 1.2V5.6L0.5 9.6V11.2L7.3 9.2V13.6L5.3 14.8V16L8.5 15.2L11.7 16V14.8L9.7 13.6V9.2L16.5 11.2Z"
+                  fill="#9B9B9B" />
+              </svg>
+              <p class="card__parrafo__stay--two"><small>Directo | Jun. 12 - Jun. 24 | 12 días</small></p>
+            </div>
+          </aside>
+        </main>
+        <aside class="text-center">
+          <a href="#searchFlight" class="btn">Buscar vuelos</a>
+        </aside>
+      </article>
+
+
+      <article class="about__card border-radius">
+        <img loading="lazy" src="./assets/CardTwo.png" alt="cardPictureTwo">
+        <main class="about__card__info">
+          <aside class="card__top">
+            <h3 class="about__title">
+              Bogota
+            </h3>
+            <svg class="arrowRightInfo" width="17" height="12" viewBox="0 0 17 12" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.9 0.5L9.772 1.60786L13.436 5.21429H0.5V6.78571H13.436L9.764 10.3921L10.9 11.5L16.5 6L10.9 0.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <h3 class="about__title">Sao Paulo</h3>
+            <small>BOG</small>
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.1 11.5L7.228 10.3921L3.564 6.78571L16.5 6.78571L16.5 5.21429L3.564 5.21429L7.236 1.60786L6.1 0.5L0.499999 6L6.1 11.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <small>GRU</small>
+          </aside>
+          <aside class="card__middle">
+            <p class="card__parrafo__stay">desde:</p>
+            <h3 class="inline__block">$929, 390 <small>COP</small></h3>
+            <div>
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5 11.2V9.6L9.7 5.6V1.2C9.7 0.536 9.164 0 8.5 0C7.836 0 7.3 0.536 7.3 1.2V5.6L0.5 9.6V11.2L7.3 9.2V13.6L5.3 14.8V16L8.5 15.2L11.7 16V14.8L9.7 13.6V9.2L16.5 11.2Z"
+                  fill="#9B9B9B" />
+              </svg>
+              <p class="card__parrafo__stay--two"><small>1 Escala | Jun. 12 - Jun. 24 | 12 días</small></p>
+            </div>
+          </aside>
+        </main>
+        <aside class="text-center">
+          <a href="#searchFlight" class="btn">Buscar vuelos</a>
+        </aside>
+      </article>
+
+
+      <article class="about__card border-radius">
+        <img loading="lazy" src="./assets/CardThree.png" alt="cardPictureThree">
+        <main class="about__card__info">
+          <aside class="card__top">
+            <h3 class="about__title">
+              Bogota
+            </h3>
+            <svg class="arrowRightInfo" width="17" height="12" viewBox="0 0 17 12" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.9 0.5L9.772 1.60786L13.436 5.21429H0.5V6.78571H13.436L9.764 10.3921L10.9 11.5L16.5 6L10.9 0.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <h3 class="about__title">Santiago</h3>
+            <small>BOG</small>
+            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.1 11.5L7.228 10.3921L3.564 6.78571L16.5 6.78571L16.5 5.21429L3.564 5.21429L7.236 1.60786L6.1 0.5L0.499999 6L6.1 11.5Z"
+                fill="#9B9B9B" />
+            </svg>
+            <small>SCL</small>
+          </aside>
+          <aside class="card__middle">
+            <p class="card__parrafo__stay">desde:</p>
+            <h3 class="inline__block">$799, 490 <small>COP</small></h3>
+            <div>
+              <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5 11.2V9.6L9.7 5.6V1.2C9.7 0.536 9.164 0 8.5 0C7.836 0 7.3 0.536 7.3 1.2V5.6L0.5 9.6V11.2L7.3 9.2V13.6L5.3 14.8V16L8.5 15.2L11.7 16V14.8L9.7 13.6V9.2L16.5 11.2Z"
+                  fill="#9B9B9B" />
+              </svg>
+              <p class="card__parrafo__stay--two"><small>Directo | Jun. 12 - Jun. 24 | 12 días</small></p>
+            </div>
+          </aside>
+        </main>
+        <aside class="text-center">
+          <a href="#searchFlight" class="btn">Buscar vuelos</a>
+        </aside>
+      </article>
+    </main>
+  </section>
+
+
+
+  <section id="program" class="gray-light  full-lg-screen">
+    <h2 class="section__title text-center">Accesos directos</h2>
+    <section class="rowProgram container-two">
+
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M21.828 0.399902H2.4C1.08 0.399902 0.012 1.4799 0.012 2.7999V7.5999C1.332 7.5999 2.4 8.6799 2.4 9.9999C2.4 11.3199 1.332 12.3999 0 12.3999V17.1999C0 18.5199 1.08 19.5999 2.4 19.5999H21.6C22.92 19.5999 24 18.5199 24 17.1999V2.7999C24 1.4799 23.028 0.399902 21.828 0.399902ZM18.876 11.5599L8.244 14.3919L6.252 10.9359L7.368 10.6359L8.88 11.8239L11.748 11.0559L8.868 6.0639L10.548 5.6079L15.36 10.0959L18.288 9.3159C18.9 9.1479 19.536 9.5199 19.704 10.1319C19.86 10.7439 19.5 11.3799 18.876 11.5599Z"
+            fill="#96172E" />
+        </svg>
+        <strong>Conozca sobre el programa</strong>
+        <p class="parrafo__size">Avianca Corporate ofrece beneficios y precios especiales para empresas con
+          viajes
+          frecuentes.</p>
+        <a class="text__link inline__block" href="#program">
+          <p>Más sobre el programa</p>
+        </a>
+        <svg class="program__svg" width="8" height="12" viewBox="0 0 8 12" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 10.59L5.08 6L0.5 1.41L1.91 0L7.91 6L1.91 12L0.5 10.59Z" fill="#96172E" />
+        </svg>
+      </article>
+
+
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M11.4 6.3999C9.744 6.3999 8.4 7.7439 8.4 9.3999C8.4 11.0559 9.744 12.3999 11.4 12.3999C13.056 12.3999 14.4 11.0559 14.4 9.3999C14.4 7.7439 13.056 6.3999 11.4 6.3999ZM21.6 0.399902H2.4C1.08 0.399902 0 1.4799 0 2.7999V17.1999C0 18.5199 1.08 19.5999 2.4 19.5999H21.6C22.92 19.5999 24 18.5199 24 17.1999V2.7999C24 1.4799 22.92 0.399902 21.6 0.399902ZM17.748 17.4519L14.256 13.9599C13.428 14.4879 12.444 14.7999 11.388 14.7999C8.412 14.7999 6 12.3879 6 9.3999C6 6.4119 8.412 3.9999 11.4 3.9999C14.388 3.9999 16.8 6.4119 16.8 9.3999C16.8 10.4559 16.488 11.4279 15.96 12.2679L19.452 15.7479L17.748 17.4519Z"
+            fill="#96172E" />
+        </svg>
+        <strong>Cómo pertenecer al programa</strong>
+        <p class="parrafo__size">Conoce los requerimientos mínimos para que accedas a los beneficios que ofrece
+          Avianca
+          Corporate</p>
+        <a class="text__link inline__block" href="#program">
+          <p>Conoce más del programa</p>
+        </a>
+        <svg class="program__svg" width="8" height="12" viewBox="0 0 8 12" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 10.59L5.08 6L0.5 1.41L1.91 0L7.91 6L1.91 12L0.5 10.59Z" fill="#96172E" />
+        </svg>
+      </article>
+
+
+      <article class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+        <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.09091 11.3637H22.9091V13.5455H1.09091V11.3637ZM2.34545 6.9455L3.27273 5.33095L4.2 6.9455L5.61818 6.12732L4.69091 4.51277H6.54545V2.87641H4.69091L5.61818 1.27277L4.2 0.45459L3.27273 2.05823L2.34545 0.45459L0.927273 1.27277L1.85455 2.87641H0V4.51277H1.85455L0.927273 6.12732L2.34545 6.9455ZM9.65455 6.12732L11.0727 6.9455L12 5.33095L12.9273 6.9455L14.3455 6.12732L13.4182 4.51277H15.2727V2.87641H13.4182L14.3455 1.27277L12.9273 0.45459L12 2.05823L11.0727 0.45459L9.65455 1.27277L10.5818 2.87641H8.72727V4.51277H10.5818L9.65455 6.12732ZM24 2.87641H22.1455L23.0727 1.27277L21.6545 0.45459L20.7273 2.05823L19.8 0.45459L18.3818 1.27277L19.3091 2.87641H17.4545V4.51277H19.3091L18.3818 6.12732L19.8 6.9455L20.7273 5.33095L21.6545 6.9455L23.0727 6.12732L22.1455 4.51277H24V2.87641Z"
+            fill="#96172E" />
+        </svg>
+        <strong>Obtenga su contraseña web</strong>
+        <p class="parrafo__size">Si aún no recibe su contraseña, o la olvidó, la puede solicitar de nuevo aquí.</p>
+        <a class="text__link inline__block" href="#program">
+          <p>Solicitar contraseña</p>
+        </a>
+        <svg class="program__svg" width="8" height="12" viewBox="0 0 8 12" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.5 10.59L5.08 6L0.5 1.41L1.91 0L7.91 6L1.91 12L0.5 10.59Z" fill="#96172E" />
+        </svg>
+      </article>
+
+    </section>
+  </section>
+
+
+  <section id="terms" class="terms">
+    <main class="container-two">
+      <h1 class="section__title text-center">Ten en cuenta</h1>
+
+      <article class="article__terms border-radius">
+        <h4>Restricciones de Viajes</h4>
+
+        <p class="parrafo__size">Revisa si tu destino tiene restricciones de viaje o exigencias de Pruebas de
+          Covid-19, que pueden impactar tu
+          viaje.</p>
+
+        <button class="btn-terms text-center">Conocer las restricciones de viajes</button>
+      </article>
+
+
+      <article class="article__terms border-radius">
+        <h4>Habla con un Ejecutivo Comercial</h4>
+
+        <p class="parrafo__size">Si ya tienes tienes una Cuenta Corporativa, puedes hablar directamente con nuestros
+          Ejecutivos Comerciales.</p>
+
+        <button class="btn-terms text-center">Conocer las restricciones de viajes</button>
+      </article>
+
+
+      <article class="article__terms border-radius">
+        <h4>Prueba PCR (Covid-19) incluida en tu tarifa</h4>
+
+        <p class="parrafo__size">Si uno de los destinos a los que viajes exige una prueba PCR para el Covid-19, nosotros
+          te hacemos la vida más fácil.
+          Nos aliamos con SynLab para que viajes tranquilo, descubre todos los beneficios que trae tu talla.</p>
+
+        <button class="btn-terms text-center">Conoce los detalles de la Prueba PCR</button>
+      </article>
+    </main>
+  </section>
+
+  <section id="footer" class="contact gray-light">
+    <main class="container-two">
+      <aside class="contain__contact__column">
+        <article class="contact__column">
+          <h3>
+            Avianca Corporate
+          </h3>
+          <b class="text-left">
+            <span>El programa Corporate</span>
+            <span>Inscripción</span>
+            <span>Otras soluciones empresariales</span>
+            <span>Direct Connect</span>
+            <span>Servicios de viaje</span>
+            <span>Cómo pertenecer al programa</span>
+            <span>Obtenga su contraseña web</span>
+            <span>Solicite su PIN</span>
+          </b>
+        </article>
+
+        <article class="contact__column">
+          <h3>
+            Conócenos
+          </h3>
+          <b class="text-left">
+            <span>Sobre nosotros</span>
+            <span>Contáctanos</span>
+            <span>Alianzas y beneficios</span>
+            <span>Direct Connect</span>
+            <span>Nuestra red de servicios</span>
+            <span>Relación con inversionistas</span>
+            <span>Mapa del Sitio</span>
+            <span>Avianca Express</span>
+          </b>
+        </article>
+
+        <article class="contact__column">
+          <h3>
+            Legales
+          </h3>
+          <b class="text-left">
+            <span>Términos y condiciones</span>
+            <span>Política de privacidad</span>
+            <span>Política de cookies</span>
+            <span>Cargos por servicios opcionales</span>
+            <span>Contrato de transporte</span>
+            <span>Plan de contingencia</span>
+          </b>
+        </article>
+      </aside>
+
+      <aside class="contact__column">
+        <h3>
+          Síguenos
+        </h3>
+
+        <footer class="contact__social">
+          <div class="contact__social__row align-center">
+            <img loading="lazy" class="social__row__svg" src="./assets/Twittersocial.svg" alt="TwitterIcon">
+            <b>
+              <p class="social__row__parrafo">Twitter</p>
+            </b>
+          </div>
+
+          <div class="contact__social__row align-center">
+            <img loading="lazy" class="social__row__svg" src="./assets/Facebooksocial.svg" alt="FacebookIcon">
+            <b>
+              <p class="social__row__parrafo">Facebook</p>
+            </b>
+          </div>
+
+          <div class="contact__social__row align-center">
+            <img loading="lazy" class="social__row__svg" src="./assets/Youtubesocial.svg" alt="YoutubeIcon">
+            <b>
+              <p class="social__row__parrafo">Youtube</p>
+            </b>
+          </div>
+
+          <div class="contact__social__row align-center">
+            <img loading="lazy" class="social__row__svg" src="./assets/Instagramsocial.svg" alt="InstagramIcon">
+            <b>
+              <p class="social__row__parrafo">Instagram</p>
+            </b>
+          </div>
+
+          <div class="social__split border__split">
+            <hr>
+          </div>
+
+
+          <article class="contact__social__two align-center">
+            <div class="contact__social__row align-center">
+              <img loading="lazy" src="./assets/Logosocialone.svg" alt="LogoSitioSeguro">
+            </div>
+            <div class="contact__social__row align-center">
+              <img loading="lazy" src="./assets/LogoSocialTwo.png" alt="LogoSuperTransporte">
+            </div>
+            <div class="contact__social__row align-center">
+              <img loading="lazy" class="social__row__logo" src="./assets/LogoSocialThree.png" alt="LogoAeronáutica">
+            </div>
+          </article>
+        </footer>
+
+
+        <hr class="border__split social__split__two">
+
+        <section class="contain__social__row--end">
+          <aside class="row__end">
+            <img loading="lazy" class="social__row__end" src="./assets/LogoAvianca.png" alt="LogoAviancaEnd">
+            <img loading="lazy" class="social__row__end__two" src="./assets/LogoStartAlliance.png"
+              alt="LogoStartAllianceEnd">
+          </aside>
+          <p class="parrafo__size">Avianca S.A. - 2020 Copyright © Todos los derechos reservados. NIT 890.100.577-6. RNT
+            20175</p>
+        </section>
+      </aside>
+    </main>
+  </section>
+
+
+
+</body>
+
+</html>
